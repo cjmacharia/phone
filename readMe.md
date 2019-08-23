@@ -24,11 +24,20 @@ npm start - The app runs on port 3000
 npm test runs all the tests.
 
 Features!
+   
     Can generate random phone numbers
-    Limit of phone numbers to be generated is accepted from the user
+    
     limit of 10000 numbers generated at a time
+    
     Numbers generated can be exported.
-    sorting of numbers and exporting sorted numbers
+    
+    sorting of numbers Iin ascending order 
+    
+    sorting of numbers in descending  order 
+    
+    Can delete the generated numbers
+    
+     All numbers start with 0
 
 Endpoints
 

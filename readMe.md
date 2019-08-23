@@ -1,7 +1,5 @@
 
-[![CircleCI](https://circleci.com/gh/cjmash/phone.svg?style=svg)](https://circleci.com/gh/cjmash/phone)
-
-[![Coverage Status](https://coveralls.io/repos/github/cjmash/phone/badge.svg?branch=master)](https://coveralls.io/github/cjmash/phone?branch=master)
+[![CircleCI](https://circleci.com/gh/cjmash/phone.svg?style=svg)](https://circleci.com/gh/cjmash/phone) [![Coverage Status](https://coveralls.io/repos/github/cjmash/phone/badge.svg?branch=master)](https://coveralls.io/github/cjmash/phone?branch=master)
 
 Phone-Number-Generator
 Express.js: A fast, opinionated, minimalist web framework for node which was used in routing this application.
@@ -26,11 +24,11 @@ npm start - The app runs on port 3000
 npm test runs all the tests.
 
 Features!
-Can generate random phone numbers
-Limit of phone numbers to be generated is accepted from the user
-limit of 10000 numbers generated at a time
-Numbers generated can be exported.
-sorting of numbers and exporting sorted numbers
+    Can generate random phone numbers
+    Limit of phone numbers to be generated is accepted from the user
+    limit of 10000 numbers generated at a time
+    Numbers generated can be exported.
+    sorting of numbers and exporting sorted numbers
 
 Endpoints
 

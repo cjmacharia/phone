@@ -71,7 +71,7 @@ export const  getNumbers = async (req, res) => {
     })
 }
 
-export const  sortNumbersMax = (req, res) => {
+export const  sortInAcendingOrder = (req, res) => {
     const existingNumbers = store.get('phonenumbers')
     const numberResponse = JSON.parse(existingNumbers);
     const sorted = numberResponse.sort(function(a, b){return a-b});
@@ -85,7 +85,7 @@ export const  sortNumbersMax = (req, res) => {
     })
 }
 
-export const  sortNumbersMin = (req, res) => {
+export const  sortInDescendingOrder = (req, res) => {
     const existingNumbers = store.get('phonenumbers')
     const numberResponse = JSON.parse(existingNumbers);
     const sorted = numberResponse.sort(function(a, b){return b-a});

@@ -7,6 +7,6 @@ export default (app) => {
     app.get('/', phoneController.getNumbers);
     app.delete('/', phoneController.deleteNumbers);
     app.post('/save', phoneController.saveNumbersToFile);
-    app.get('/ascending', phoneController.sortNumbersMax);
-    app.get('/descending', phoneController.sortNumbersMin);
+    app.get('/ascending', phoneController.sortInAcendingOrder);
+    app.get('/descending', phoneController.sortInDescendingOrder);
 }

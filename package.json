@@ -1,0 +1,28 @@
+{
+  "name": "phone-gen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --detectOpenHandles --force-exit",
+    "start": "nodemon index.js --exec babel-node",
+    "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-env": "^7.5.5",
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "jest": "^24.9.0",
+    "nodemon": "^1.19.1",
+    "store-js": "^2.0.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "supertest": "^4.0.2"
+  }
+}

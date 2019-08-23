@@ -1,5 +1,6 @@
 
 [![CircleCI](https://circleci.com/gh/cjmash/phone.svg?style=svg)](https://circleci.com/gh/cjmash/phone)
+
 [![Coverage Status](https://coveralls.io/repos/github/cjmash/phone/badge.svg?branch=master)](https://coveralls.io/github/cjmash/phone?branch=master)
 
 Phone-Number-Generator
